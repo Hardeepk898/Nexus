@@ -1,0 +1,201 @@
+@font-face {
+    font-family: BarlowSemiBold;
+    src: url("../fonts/Barlow-SemiBold.eot") /* EOT file for IE */
+}
+@font-face {
+    font-family: BarlowSemiBold;
+    src: url("../fonts/Barlow-SemiBold.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+    font-family: BarlowBold;
+    src: url("../fonts/Barlow-Bold.eot") /* EOT file for IE */
+}
+@font-face {
+    font-family: BarlowBold;
+    src: url("../fonts/Barlow-Bold.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+    font-family: BarlowRegular;
+    src: url("../fonts/Barlow-Regular.eot") /* EOT file for IE */
+}
+@font-face {
+    font-family: BarlowRegular;
+    src: url("../fonts/Barlow-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+    font-family: BarlowExtraBold;
+    src: url("../fonts/Barlow-ExtraBold.eot") /* EOT file for IE */
+}
+@font-face {
+    font-family: BarlowExtraBold;
+    src: url("../fonts/Barlow-ExtraBold.ttf") /* TTF file for CSS3 browsers */
+}
+body {
+    font-family: BarlowRegular;
+    color: #58595B;
+}
+.header_number {
+    background-color: #1EAAE9;
+    border-radius: 20px;
+    padding: 7px 9px;
+    color: #fff;
+    font-size: 13px;
+    font-family: BarlowSemiBold;
+}
+.header_oneonone {
+    background-color: #2BEDC1;
+    border-radius: 20px;
+    padding: 7px 9px;
+    color: #147296;
+    font-size: 13px;
+    font-family: BarlowBold;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgb(5,27,37);
+    background-size: 58%;
+    border-radius: 50%;
+}
+.carousel-caption {
+    top: 18%;
+    bottom: auto;
+    line-height: 31px;
+    left: 11%;
+}
+.contact_icons img {
+    width: 10%;
+}
+.contact_icons li {
+    padding-bottom: 2%;
+    font-family: BarlowSemiBold;
+}
+.watch_a_demo h2 {
+    color: #6D6E71;
+    font-family: BarlowBold;    
+}
+.watch_a_demo p {
+    font-family: BarlowSemiBold;
+    font-size: 18px;
+}
+.watch_a_demo form {
+    font-family: BarlowSemiBold;
+}
+.watch_a_demo select, .watch_a_demo input {
+    color: #848283;
+    font-family: BarlowRegular;
+}
+.watch_a_demo .btn {
+    color: #fff;
+    font-family: BarlowBold;
+    width: 45%;
+    
+}
+.watch_a_demo form label {
+    margin-bottom: 10px;
+}
+.custom_sized_icons {
+    width:  6% !important;
+}
+.asterisk {
+    color: #DA2932;
+    font-weight: 500;
+}
+.form-control {
+    border: 1px solid #959595;
+}
+.improve_your_practice {
+    background-color: #2BEDC1;
+    color: #136B94;
+}
+.improve_your_practice h3 {
+    font-family: BarlowBold;
+}
+.improve_your_practice button {
+    background-color: #136B94;
+    color: #2BEDC1;
+    border-color: #136B94;
+    border-radius: 21px;
+    padding: 2px 33px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.improve_your_practice button:hover {
+    background-color: #0F5273;
+    border-color: #0F5273;
+}
+.slider h2 {
+    font-family: BarlowBold;
+}
+.slider h4 {
+    font-family: BarlowSemiBold;
+}
+.title {
+    font-family: BarlowBold;
+    color: #58595B;
+}
+.footer {
+    background-color: #136B94;
+    font-size: 12px;
+}
+.footer li {
+    padding: 0 18px;
+}
+.footer h4 {
+    font-family: BarlowBold;
+}
+.footer a {
+    color: #fff;
+}
+a {
+    text-decoration: none;
+}
+.seperator {
+    border-top: 1px solid #fff;
+    float: left;
+    width: 100%;
+    margin: 3% 0;
+}
+.btn-primary {
+    background-color: #1EAAE9;
+    border-color: #1EAAE9;
+    border-radius: 21px;
+}
+.btn-primary:hover {
+    background-color: #138DC1;
+    border-color: #138DC1;
+
+}
+/* Medium devices (GALAXY Fold) */
+@media (max-width: 300px) {
+    .GWHN {
+        width: 50%;
+    }
+    .GWHO {
+        width: 100%;
+            text-indent: 52px;
+    margin-bottom: 20px;
+    margin-top: -17px;
+    }
+}
+@media (min-width: 768px) {
+    .header_number,.header_oneonone {
+        font-size: 15px;
+        padding: 7px 9px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .header_number,.header_oneonone {
+        font-size: 17px;
+        padding: 9px 30px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .header_number,.header_oneonone {
+        font-size: 17px;
+        padding: 9px 30px;
+    }
+}
