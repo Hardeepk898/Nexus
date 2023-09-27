@@ -1,5 +1,5 @@
 === Nexus Clinical ===
-Contributors: Hardeep KAur
+Contributors: Hardeep Kaur
 Tested up to: 6.3
 Stable tag: 1.9
 License: GPLv2 or later
